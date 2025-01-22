@@ -3,7 +3,7 @@ import Search from '@/app/ui/search';
 import Table from '@/app/ui/invoices/table';
 import { fetchInvoicesPages } from '@/app/lib/data';
 import { CreateInvoice } from '@/app/ui/invoices/buttons';
-import { inter, lusitana } from '@/app/ui/fonts';
+import { lusitana } from '@/app/ui/fonts';
 import { InvoicesTableSkeleton } from '@/app/ui/skeletons';
 import { Suspense } from 'react';
 
