@@ -8,7 +8,7 @@ interface Props {
 }
 
 export default async function Page(props: Props) {
-    const params = props.params;
+    const params = await props.params;
     const id = params.id;
 
     const [invoice, customers] = await Promise.all([
